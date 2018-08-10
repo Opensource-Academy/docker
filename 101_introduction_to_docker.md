@@ -5,7 +5,7 @@
 
 Simply put, Docker is a platform to build, run and even share so called [containers](https://en.wikipedia.org/wiki/Operating-system-level_virtualization). A container consists of an operating system (usualy a Linux distribution) and some software to perform a certain (set of) tasks.
 
-This [Wikipedia article](https://en.wikipedia.org/wiki/Docker_(software) might be a readable summary of what Docker is and can do. Alternatively, [this website](https://docker-curriculum.com/) tries to offer a simplified tutorial like introductin to Docker for beginners (just read to introductionary chapter to get a basic grasp of what Docker is and can do, skimming the first chapter should give you a basic introduction to some phrasing and concepts).
+This [Wikipedia article](https://en.wikipedia.org/wiki/Docker_(software) might be a readable summary of what Docker is and can do. Alternatively, [this website](https://docker-curriculum.com/) tries to offer a simplified tutorial like introduction to Docker for beginners (just read to introductionary chapter to get a basic grasp of what Docker is and can do, skimming the first chapter should give you a basic introduction to some phrasing and concepts).
 
 > Note: [containers are __not__ virtual machines!](https://blog.docker.com/2016/03/containers-are-not-vms/)
 
@@ -38,7 +38,7 @@ If you did not already do so: find out how to install docker and get and run the
 ### Interactive Ubuntu container
 Try to run the ubuntu docker interactiveley (have Ba(sh) open in an Ubuntu container and try some basic Bash commands).
 ### Dockerfile to container
-Write a Dockerfile, that uses the previously used Ubuntu imaage as it's base image for a container that simply runs:
+Write a Dockerfile, that uses the previously used Ubuntu image as its base image for a container that simply runs:
 ```
 echo hello!
 ```
@@ -51,10 +51,10 @@ print('python!')
 
 Write a dockerfile that installs python3, copy your `hello.py` into your Docker image and build and run.
 ### Alpine
-If you are up for a tougher challenge, try to do the previous exeercise using the latest `alpine` (google it!) image as base image.
+If you are up for a tougher challenge, try to do the previous exercise using the latest `alpine` (google it!) image as base image.
 
 ## Tips
-If you managed to go through all the steps above and the went through the Docker documentation, you now have a basic understanding of how Docker containers work.
+If you managed to go through all the steps above and went through the Docker documentation, you now have a basic understanding of how Docker containers work.
 
 If you lack experience with Linux or computers in general, be sure to come back to this tutorial and the Docker documentation as you learn.
 
