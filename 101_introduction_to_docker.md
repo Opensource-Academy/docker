@@ -62,6 +62,9 @@ Aim to go through Docker's full feature set, Docker is heavily documented and us
 
 Remember: Docker might seem like a lot and complicated, but the tricky part of Docker is learning about Linux and programming, not Docker.
 
+## Additional Resources
+After you have learned the basics of Docker, [this website](https://docker-curriculum.com/) will give you a nice curriculum on how to build and deploy distributed applications.
+
 ```
    Copyright 2018 Opensource Academy
 
